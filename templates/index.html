@@ -1,0 +1,36 @@
+<html>
+<head>
+
+</head>
+<body>
+
+    <form action="/predict" method="POST">
+        
+        <label>company</label>
+        <input type="number" name="car_models"><br>
+        
+
+        <label>car_model</label>
+        <input type="number" name="car_models"><br>
+
+        <label>year </label>
+        <input type="number" name="Year"><br>
+
+        <label>fuel_type: </label>
+        <input type="number" name="fuel_type"><br>
+
+        <label>driven: </label>
+        <input type="number" name="kilo_driven"><br>
+
+        <input type="submit"> <br>
+
+        {{prediction}}
+
+
+
+    </form>
+
+
+
+</body>
+</html>
